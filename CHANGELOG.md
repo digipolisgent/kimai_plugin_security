@@ -4,4 +4,5 @@
 
 ### Added
 
+- X-Frame-Options header for all responses.
 - Referrer-Policy header for all responses.
