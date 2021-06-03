@@ -1,0 +1,25 @@
+{
+    "name": "digipolisgent/kimai-security-plugin",
+    "description": "A Kimai 2 plugin, which adds some security related functionality .",
+    "homepage": "https://github.com/digipolisgent/kimai_plugin_security",
+    "type": "kimai-plugin",
+    "keywords": [
+        "kimai",
+        "kimai-plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jelle Sebreghts",
+            "email": "Jelle.Sebreghts@district09.gent"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": "1.10",
+            "version": "1.0.1",
+            "name": "KimaiSecurity"
+        },
+        "installer-name": "KimaiSecurityBundle"
+    }
+}
