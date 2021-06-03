@@ -43,5 +43,6 @@ class KernelRequestSubscriber implements EventSubscriberInterface
         $response = $event->getResponse();
 
         $response->headers->set('Referrer-Policy', 'no-referrer, strict-origin-when-cross-origin');
+        $response->headers->set('X-Frame-Options', 'DENY');
     }
 }
