@@ -16,15 +16,9 @@ class KernelRequestSubscriber implements EventSubscriberInterface
      */
     protected $dispatcher;
 
-    /**
-     * @var ContainerInterface
-     */
-    protected $container;
-
-    public function __construct(EventDispatcherInterface $dispatcher, ContainerInterface $container)
+    public function __construct(EventDispatcherInterface $dispatcher)
     {
         $this->dispatcher = $dispatcher;
-        $this->container = $container;
     }
 
     public static function getSubscribedEvents(): array
