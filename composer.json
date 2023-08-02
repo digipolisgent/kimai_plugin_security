@@ -19,7 +19,7 @@
         "installer-name": "KimaiSecurityBundle",
         "kimai": {
             "name": "KimaiSecurity",
-            "require": "20000"
+            "require": 20000
         }
     }
 }
